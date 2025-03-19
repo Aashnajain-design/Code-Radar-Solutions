@@ -12,7 +12,7 @@ int main()
     scanf("%s", str2);  // Read the second string using scanf
 
     // Print the strings
-    printf("You entered: %s\n", str1 , str2);
+    printf("You entered: %s %s\n", str1 , str2);
     
 
     return 0;
