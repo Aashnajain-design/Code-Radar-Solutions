@@ -6,7 +6,7 @@ int main()
     scanf("%d",&a);
     printf("");
     scanf("%d", &b);
-    result a ^ b;
+    result =  a ^ b;
     printf("%d",result);
     return 0;
 }
