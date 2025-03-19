@@ -2,15 +2,12 @@
 
 int main()
 {
-    int a, b, sum;  // Declare variables for input and sum
-    printf("%d", a);
-    scanf("%d", &a);  // Take input for 'a'
+    int a, b;  // Declare two integer variables to store the input values
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);  // Read two integers from the user
     
-    printf("%d", b);
-    scanf("%d", &b);  // Take input for 'b'
-    
-    sum = a + b;  // Calculate the sum of a and b
-    printf("Sum: %d", sum);  // Print the sum
+    int sum = a + b;  // Calculate the sum of the two integers
+    printf("Sum: %d\n", sum);  // Print the sum
     
     return 0;
 }
