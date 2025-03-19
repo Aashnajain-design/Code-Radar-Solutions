@@ -9,8 +9,8 @@ int main()
     scanf("%d", &num);  // Read an integer from the user
     
     // Printing the number in different formats
-    printf("In Hexadecimal: %X\n", num);  // Print in uppercase hexadecimal
-    printf("In Octal: %o\n", num);  // Print in octal
+    printf("Hexadecimal: %X\n", num);  // Print in uppercase hexadecimal
+    printf("Octal: %o\n", num);  // Print in octal
     
     return 0;
 }
