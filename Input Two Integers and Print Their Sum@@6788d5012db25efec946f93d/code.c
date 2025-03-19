@@ -1,10 +1,16 @@
 #include<stdio.h>
+
 int main()
 {
-    int a =5;
-    int b = 6;
-    int sum =   (a+b);
-   
-    printf("Sum: %d", sum);
+    int a, b, sum;  // Declare variables for input and sum
+    printf();
+    scanf("%d", &a);  // Take input for 'a'
+    
+    printf();
+    scanf("%d", &b);  // Take input for 'b'
+    
+    sum = a + b;  // Calculate the sum of a and b
+    printf("Sum: %d", sum);  // Print the sum
+    
     return 0;
 }
