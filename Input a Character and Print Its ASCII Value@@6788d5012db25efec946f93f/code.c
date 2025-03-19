@@ -6,7 +6,6 @@ int main()
     printf("");
     scanf("%c", &c);  // Read a single character from the user
     
-    printf("ASCII value: %d\n", c, c);  // Print the ASCII value using %d for integer representation
-    
+    printf("ASCII Value:%d\n", c, c);
     return 0;
 }
