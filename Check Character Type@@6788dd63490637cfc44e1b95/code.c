@@ -2,9 +2,9 @@
 int main() {
     char ch;
     scanf("%c",  &ch);
-    if(ch = 'a, e, i, o, u') {
+    if(ch = 'aeiou') {
         printf("vowel");
-    } if (ch != 'a, e, i, ,o , u'){
+    } if (ch != 'aeiou'){
         printf("consonant");
     } if (ch >='0' && ch<='9' ){
         printf("digit");
