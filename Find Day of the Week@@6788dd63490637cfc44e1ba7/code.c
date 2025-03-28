@@ -31,5 +31,8 @@ int main(){
         printf("Sunday");
     }
      Case_8:
+     else{
           printf("Invalid");
     }
+    return 0;
+}
