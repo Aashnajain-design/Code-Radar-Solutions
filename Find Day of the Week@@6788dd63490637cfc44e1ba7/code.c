@@ -30,7 +30,6 @@ int main(){
     if (n==7){
         printf("Sunday");
     }
-     Case_8:
          else{
           printf("Invalid");
     }
