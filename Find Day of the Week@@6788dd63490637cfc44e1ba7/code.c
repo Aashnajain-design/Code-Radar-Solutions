@@ -2,31 +2,31 @@
 int main(){
     int n;
     scanf("%d",&n);
-    Case 1:
+    Case_1:
     if (n==1){
         printf("Monday");
     }
-     Case 2:
+     Case_2:
     if (n==2){
         printf("Tuesday");
     }
-     Case 3:
+     Case_3:
     if (n==3){
         printf("Wednesday");
     }
-     Case 4:
+     Case_4:
     if (n==4){
         printf("Thursday");
     }
-     Case 5:
+     Case_5:
     if (n==5){
         printf("Friday");
     }
-     Case 6:
+     Case_6:
     if (n==6){
         printf("Saturday");
     }
-     Case 7:
+     Case_7:
     if (n==7){
         printf("Sunday");
     }
