@@ -3,8 +3,8 @@ int main(){
     int rows, i, j;
     printf("");
     scanf("%d", &rows);
-    for( i  = rows; i=1; i++){
-        for(j>=i; j<=rows; j--){
+    for( i  = 1; i<=rows; i++){
+        for(j=1; j<=i; j++){
             printf("* ");
         }
         printf("\n");
