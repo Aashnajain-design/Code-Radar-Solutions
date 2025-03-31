@@ -10,7 +10,7 @@ void rotate(int arr[], int start, int stop){
 }
 int main(){
     int k;
-    scanf("%d", &k)
+    scanf("%d", &k);
     int arr[n];
     scanf("%d", &arr[n]);
     k = k%n;
