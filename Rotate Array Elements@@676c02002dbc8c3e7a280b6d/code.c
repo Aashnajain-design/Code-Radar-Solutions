@@ -13,7 +13,7 @@ int main(){
     int arr[5] ={1, 2,3, 4, 5};
     k = k%5;
     for(int i=0; i<5; i++){
-        printf("%d",arr[i])
+        printf("%d",arr[i]);
     }
     printf("\n");
     rotate(arr, 0, 4);
