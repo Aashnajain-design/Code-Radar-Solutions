@@ -9,16 +9,18 @@ void rotate(int arr[], int start, int stop){
     return;
 }
 int main(){
-    int k =7;
-    int arr[5] ={1, 2,3, 4, 5};
-    k = k%5;
-    for(int i=0; i<5; i++){
+    int k;
+    scanf("%d", &k)
+    int arr[n];
+    scanf("%d", &arr[n]);
+    k = k%n;
+    for(int i=0; i<n; i++){
         printf("%d",arr[i]);
     }
     printf("\n");
-    rotate(arr, 0, 4);
+    rotate(arr, 0, n-1);
     rotate(arr, 0, k-1);
-    rotate(arr, k, 4);
+    rotate(arr, k, n-1);
     for(int i =0; i<5; i++){
         printf("%d", arr[i]);
     }
