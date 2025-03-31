@@ -20,6 +20,7 @@ int arr[5] = {11, 28, 13, 34, 65};
 bubbleSort(arr, 5);
 for(int i=0; i<5; i++){
     printf("%d", arr[i]);
+    printf("Sorted");
 
 
 
