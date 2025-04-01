@@ -6,9 +6,9 @@ void bubbleSort(int input[], int size){
         for(int j=0; j<i-1; j++){
             if(input[j]>input[j+1]){
                 flag = 1;
-                int temp = input[j];
-                input[j] = input[j+1];
-                input[j+1] = temp;
+                // int temp = input[j];
+                // input[j] = input[j+1];
+                // input[j+1] = temp;
                
             }
         }
@@ -23,20 +23,18 @@ int main(){
          scanf("%d", &arr[i]);
 }
 bubbleSort(arr, n);
-for(int i=0; i<n; i++){
+// for(int i=0; i<n; i++){
+    if(flag==1){
+        printf("Sorted");
+
+    }
+    else{
+        printf("Not Sorted");
+    }
+
    
-   
-
-
-
-
-
-
-
-
-
 
 }
- printf("Sorted");
+//  printf("Sorted");
 return 0;
 }
