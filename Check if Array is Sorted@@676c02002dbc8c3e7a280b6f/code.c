@@ -15,12 +15,12 @@ void bubbleSort(int input[], int size){
         if(flag==0) break;
     }
 }
-int main(int argc, char const *argv[]){
+int main(){
     int n;
-    scanf("%d",&n);
-int arr[i];
-for(i=0; i<n; i++){
-    scanf("%d", &i);
+    scanf("%d",&n); 
+    int arr[n];
+    for(i=0; i<n; i++){
+         scanf("%d", &arr[i]);
 }
 bubbleSort(arr, n);
 for(int i=0; i<n; i++){
