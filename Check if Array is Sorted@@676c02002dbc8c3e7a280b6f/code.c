@@ -16,7 +16,10 @@ void bubbleSort(int input[], int size){
     }
 }
 int main(int argc, char const *argv[]){
-int arr[5] = {11, 28, 13, 34, 65};
+int arr[n] = {};
+for(i=0; i<n; i++){
+    scanf("%d", &n);
+}
 bubbleSort(arr, 5);
 for(int i=0; i<5; i++){
     printf("%d", arr[i]);
