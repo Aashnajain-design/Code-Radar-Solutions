@@ -1,42 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void bubbleSort(int input[], int size){
-    for(int i = size; i>0; i--){
-        int flag =0;
-        for(int j=0; j<i-1; j++){
-            if(input[j]>input[j+1]){
-                flag = 1;
-                int temp = input[j];
-                input[j] = input[j+1];
-                input[j+1] = temp;
-               
-            }
+int isSorted(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            return 0; // Not sorted
         }
-        if(flag==0) break;
     }
+    return 1; // Sorted
 }
-int main(){
-    int flag;
-    int n;
-    scanf("%d",&n); 
-    int arr[n];
-    for( int i=0; i<n; i++){
-         scanf("%d", &arr[i]);
-}
-bubbleSort(arr, n);
-for(int i=0; i<n; i++){
-}
-    if(flag==1){
-        printf(" Not Sorted");
 
-    }
-    else if(flag==0){
+int main() {
+    int arr[] = {}; // Example array
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    if (isSorted(arr, n)) {
         printf("Sorted");
+    } else {
+        printf("Not Sorted");
     }
 
-   
-
- 
-//  printf("Sorted");
-return 0;
+    return 0;
 }
