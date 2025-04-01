@@ -35,7 +35,7 @@ bubbleSort(arr, n);
 
    
 
-}
+// }
 //  printf("Sorted");
 return 0;
 }
