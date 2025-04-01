@@ -25,6 +25,7 @@ int main(){
 }
 bubbleSort(arr, n);
 for(int i=0; i<n; i++){
+}
     if(flag==1){
         printf("Sorted");
 
@@ -35,7 +36,7 @@ for(int i=0; i<n; i++){
 
    
 
- }
+ 
 //  printf("Sorted");
 return 0;
 }
