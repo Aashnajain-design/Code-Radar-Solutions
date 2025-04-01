@@ -27,7 +27,7 @@ int main(){
 }
 bubbleSort(arr, n);
 // for(int i=0; i<n; i++){
-    if(bubbleSort){
+    if(bubbleSort(arr,n)){
         printf("Sorted");
 
     }
