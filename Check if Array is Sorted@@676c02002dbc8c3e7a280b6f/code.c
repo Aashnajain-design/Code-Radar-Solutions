@@ -29,7 +29,7 @@ bubbleSort(arr, n);
         printf("Sorted");
 
     }
-    else{
+    else if(flag==0){
         printf("Not Sorted");
     }
 
