@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]){
     scanf("%d",&n);
 int arr[n];
 for(i=0; i<n; i++){
-    scanf("%d", &n);
+    scanf("%d", &i);
 }
 bubbleSort(arr, n);
 for(int i=0; i<n; i++){
